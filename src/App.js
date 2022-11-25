@@ -1,8 +1,7 @@
 import './App.css';
-import Header from './components/Header';
-import Main from './components/Main';
-import Cart from './components/Cart';
-import { BrowserRouter } from 'react-router-dom';
+import Header from './layout/Header';
+import Main from './layout/Main';
+import Cart from './layout/Cart';
 
 function App() {
   return (

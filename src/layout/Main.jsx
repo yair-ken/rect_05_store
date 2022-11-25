@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom"
-import CategoryList from "./CategoryList"
-import Product from "./Product"
-import Products from "./Products"
+import CategoryList from "../pages/CategoryList"
+import Product from "../pages/Product"
+import Products from "../pages/Products"
 
 
 

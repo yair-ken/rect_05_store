@@ -12,7 +12,7 @@ function Main(){
     <Routes>
         <Route path="/category" element={<CategoryList/>}/>
         <Route path="/category/:catName" element={<Products/>}/>
-        <Route path="/Product/:ProductId" element={<Product/>}/>
+        <Route path="/product/:productId" element={<Product/>}/>
     </Routes>
 </main>
     )

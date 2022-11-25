@@ -8,7 +8,7 @@ import Products from "./Products"
 function Main(){
     return(
 <main>
-    main
+    
     <Routes>
         <Route path="/category" element={<CategoryList/>}/>
         <Route path="/category/:catName" element={<Products/>}/>

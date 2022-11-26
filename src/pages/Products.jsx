@@ -14,7 +14,7 @@ useEffect(()=>{
     .then(({data})=>setCategory(
         data.map(v=>
             <CardProduct key={v.id}
-            image={v.image} rate={v.rating.rate} title={v.title}/>)))
+            image={v.image} price={v.price} title={v.title}/>)))
 },[catName])
 
 return(

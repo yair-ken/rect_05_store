@@ -19,7 +19,7 @@ useEffect(()=>{
       <img src={data.image} alt={data.title} className="imagProdact"/>
       <br/>{data.title}
       <br/> <button>add to cart</button>
-      <br/>{data.rating.rate}
+      <br/>{data.price}
       <br/>{data.description}
     </div>))
 },[product])
